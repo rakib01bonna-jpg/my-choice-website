@@ -5,6 +5,9 @@
         /* background-color: rgb(159, 136, 120); */
     
       }
+      
+      
+      
       body {
          /* background-image: url('https://i0.wp.com/picjumbo.com/wp-content/uploads/green-natural-background-with-wooden-surface-free-image.jpeg?w=2210&quality=70'); */
         /* background-image: url('/bg-image.jpg'); */
@@ -167,15 +170,67 @@
           background-color: crimson;
         }
         .slogon {
-                color: peru;
+                color: white;
                 font-weight: bold;
                 font-size: 1.2rem;
 
 
         }
         .slogon span {
-          color: pink;
+          color: black;
           font-size: 1.5rem;
         }
-        
+        /* footer arr css style freedom  */
+        .rakibul {
+          background-color: rgb(109, 135, 126);
+          color: whitesmoke;
+          font-size: 1.2rem;
+          padding: 40px 20px 0px;
+          /* min-width: 1200px;  */
+          margin: 0 auto;    
+          padding: 0 20px; 
+          border-radius: 5PX;  
+          margin-top: 10px;  
+          
+        }
+        .container {
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+        }
+        .footer-column {
+          flex: 1;
+          min-width: 120px;
+        }
+        .footer-column h3 {
+          font-size: 1.25rem;
+          margin-bottom: 15px;
+          line-height: 1.4;
+          color: rgb(66, 10, 10);
+          font-weight: bold;
+        }
+        .footer-content p ,address {
+          color: rgb(66, 10, 10);
+          margin: 10px;
+          
+        }
+        .footer-column a {
+          color: rgb(11, 12, 11);
+        }
+        .BIG  u {
+          font-size: 1.25rem;
+          color: rgb(66, 10, 10);
+         
+        }
+        .footer-button  p {
+               font-size: 15px;
+               color: rgb(9, 6, 7);
+               font-weight: 700;
+               align-items: center;
+        }
+        .footer-button span  {
+            color: rgb(213, 224, 220);
+            font-weight: bold;
+
+        } 
         
